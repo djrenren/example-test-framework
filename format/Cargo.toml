@@ -1,0 +1,9 @@
+[package]
+name = "format"
+version = "0.1.0"
+authors = ["John Renner <john@jrenner.net>"]
+edition = "2018"
+
+[dependencies]
+framework = {path = "../framework"}
+format-macro = {path = "./format-macro"}
